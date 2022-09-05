@@ -11,7 +11,7 @@ class Solution(object):
         
         for i in range(0, len(nums)+1):
             num1 = nums[i]
-            k = 0
+            k = 10**10 #Choosing out of constraints value for the k
             j = 0
             last_element = len(nums) -1
             while j != (last_element +1):
